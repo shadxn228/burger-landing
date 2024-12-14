@@ -331,3 +331,66 @@ h5 {
 .download-menu button {
   font-weight: 600;
 }
+
+/* FOOTER */
+
+.footer {
+  background-color: #1c1c1c;
+  padding: 110px 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer h2 {
+  font-size: 1.2rem;
+}
+/* footer-contacts */
+.footer-contacts a {
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+.footer-contacts a:hover {
+  color: #fff;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.footer-logo {
+  width: 80px;
+  height: 80px;
+}
+.footer-mail .footer-global {
+  display: flex;
+}
+.footer-mail {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/* footer-nav */
+.footer-nav a {
+  display: block;
+  opacity: 0.8;
+  margin: 12px 0;
+  font-size: 0.8rem;
+}
+.footer-nav a:hover {
+  color: #fff;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.footer .footer-nav {
+  display: flex;
+  gap: 100px;
+}
+/* footer-socials */
+.footer .link-items {
+  display: flex;
+  gap: 10px;
+}
+.link-items img {
+  width: 18px;
+  height: 18px;
+}
+.footer-socials h2 {
+  margin-bottom: 10px;
+}
